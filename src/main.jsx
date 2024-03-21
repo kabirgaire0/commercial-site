@@ -6,5 +6,6 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <div>
     <Header />
-  </div>,
+    
+  </div>
 )

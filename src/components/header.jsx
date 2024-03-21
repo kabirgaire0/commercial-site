@@ -1,6 +1,5 @@
 import React from "react"
 
-
 function Header(){
     return (
         <div className="p-[20px]">
@@ -9,35 +8,30 @@ function Header(){
                 {/* get the user name fomr the api */}
                 <p className="mb-[15px]">Singed in as (user name)</p>
             </div>
-            <div className="">
+            <div className=" bg-[#DEE0E3] border-[3px] border-black ">
 
-                <ul className="flex flex-row gap-[10px]">
-                    <div className="w-[150px] h-[50px] text-center flex items-center justify-center">
-                    <li className="bg-[#8c846d] transition delay-150 duration-300 ease-in-out w-[90%] h-[90%] rounded-[10px] p-[10px] text-[white] hover:bg-[#9f9987] hover:scale-110 hover:cursor-pointer">
+                <ul className="flex flex-row gap-[10px] ">
+                    <li className=" transition delay-150 duration-300 ease-in-out  rounded-[10px] p-[10px] text-[#000]  hover:scale-110 hover:cursor-pointer">
                         <a href="#">Active Listings</a>
                     </li>
-                    </div>
-                    <div className="w-[150px] h-[50px] text-center flex items-center justify-center">
-                    <li className="bg-[#8c846d] transition delay-150 duration-300 ease-in-out w-[90%] h-[90%] rounded-[10px] p-[10px] text-[white] hover:bg-[#9f9987] hover:scale-110 hover:cursor-pointer">
-                        <a href="#">Active Listings</a>
+
+                    <li className=" transition delay-150 duration-300 ease-in-out  rounded-[10px] p-[10px] text-[#000]  hover:scale-110 hover:cursor-pointer">
+                        <a href="#">Categories</a>
                     </li>
-                    </div>
-                    <div className="w-[150px] h-[50px] text-center flex items-center justify-center">
-                    <li className="bg-[#8c846d] transition delay-150 duration-300 ease-in-out w-[90%] h-[90%] rounded-[10px] p-[10px] text-[white] hover:bg-[#9f9987] hover:scale-110 hover:cursor-pointer">
-                        <a href="#">Active Listings</a>
+                    <li className=" transition delay-150 duration-300 ease-in-out  rounded-[10px] p-[10px] text-[#000]  hover:scale-110 hover:cursor-pointer">
+                        <a href="#">Watchlist</a>
+                        {/* here we should display the number of lists that the use have add */}
+                        <h3 className="ml-[5px] inline">3 </h3>
                     </li>
-                    </div>
-                    <div className="w-[150px] h-[50px] text-center flex items-center justify-center">
-                    <li className="bg-[#8c846d] transition delay-150 duration-300 ease-in-out w-[90%] h-[90%] rounded-[10px] p-[10px] text-[white] hover:bg-[#9f9987] hover:scale-110 hover:cursor-pointer">
-                        <a href="#">Active Listings</a>
+                    <li className=" transition delay-150 duration-300 ease-in-out  rounded-[10px] p-[10px] text-[#000]  hover:scale-110 hover:cursor-pointer">
+                        <a href="#">Creat Listing</a>
                     </li>
-                    </div>
-                    <div className="w-[150px] h-[50px] text-center flex items-center justify-center">
-                    <li className="bg-[#8c846d] transition delay-150 duration-300 ease-in-out w-[90%] h-[90%] rounded-[10px] p-[10px] text-[white] hover:bg-[#9f9987] hover:scale-110 hover:cursor-pointer">
-                        <a href="#">Active Listings</a>
-                    </li>
-                    </div>
+                    <li className=" transition delay-150 duration-300 ease-in-out  rounded-[10px] p-[10px] text-[#000]  hover:scale-110 hover:cursor-pointer">
+                        <a href="#">Log Out</a>
+                    </li> 
                 </ul>
+
+                {/* <div className="mt-[20px] w-[100%] h-[2px] bg-black"></div> */}
             </div>
         </div>
     )
