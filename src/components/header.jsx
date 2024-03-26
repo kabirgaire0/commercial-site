@@ -2,7 +2,7 @@ import React from "react"
 
 function Header(){
     return (
-        <div className="p-[20px]">
+        <div>
             <div>
                 <h1 className="mb-[15px] text-[40px]">Auction</h1>
                 {/* get the user name fomr the api */}
@@ -12,7 +12,7 @@ function Header(){
 
                 <ul className="flex flex-row gap-[10px] ">
                     <li className=" transition delay-150 duration-300 ease-in-out  rounded-[10px] p-[10px] text-[#000]  hover:scale-110 hover:cursor-pointer">
-                        <a href="#">Active Listings</a>
+                        <a href="activeListing">Active Listings</a>
                     </li>
 
                     <li className=" transition delay-150 duration-300 ease-in-out  rounded-[10px] p-[10px] text-[#000]  hover:scale-110 hover:cursor-pointer">
@@ -24,7 +24,7 @@ function Header(){
                         <h3 className="ml-[5px] inline">3 </h3>
                     </li>
                     <li className=" transition delay-150 duration-300 ease-in-out  rounded-[10px] p-[10px] text-[#000]  hover:scale-110 hover:cursor-pointer">
-                        <a href="#">Creat Listing</a>
+                        <a href="creatListing">Creat Listing</a>
                     </li>
                     <li className=" transition delay-150 duration-300 ease-in-out  rounded-[10px] p-[10px] text-[#000]  hover:scale-110 hover:cursor-pointer">
                         <a href="#">Log Out</a>
